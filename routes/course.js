@@ -9,7 +9,7 @@ courserouter.post("/purchase",(req,res)=>{
 })
 
 
-courserouter.post("/preview",(req,res)=>{
+courserouter.get("/preview",(req,res)=>{
     res.json({
         message:"Hey this is mayank goyal"
     })

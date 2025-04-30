@@ -16,7 +16,7 @@ userrouter.post("/signin",(req,res)=>{
 })
 
 
-userrouter.post("/purchases",(req,res)=>{
+userrouter.get("/purchases",(req,res)=>{
     res.json({
         message:"Hey this is mayank goyal"
     })
