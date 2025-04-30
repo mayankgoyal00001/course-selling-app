@@ -1,5 +1,7 @@
 const express=require("express")
 const adminrouter=express();
+const {adminModel}=require("../db")
+
 
 adminrouter.post("/signup",(req,res)=>{
     res.json({
